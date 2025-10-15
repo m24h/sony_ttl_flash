@@ -1,0 +1,1 @@
+del /q *.asm *.lk *.lst  *.rel *.rst *.sym *.ihx *.hex mylib.lib 2>nul

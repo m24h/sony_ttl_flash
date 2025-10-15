@@ -1,0 +1,1487 @@
+ASxxxx Linker V03.00/V05.40 + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_OSEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  l_BIT_BANK                      
+C:   00000001  l_BSEG_BYTES                    
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000003  l_BSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  l_REG_BANK_3                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000018  s_REG_BANK_3                    
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000021  s_BIT_BANK                      
+C:   00000021  s_OSEG                          
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000056  s_SSEG                          
+C:   0000007D  l_DSEG                          
+ASxxxx Linker V03.00/V05.40 + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000AA  l_SSEG                          
+C:   000000AC  l_HOME                          
+C:   000000AC  s_GSINIT0                       
+C:   000000AD  l_GSINIT                        
+C:   000000AF  s_GSINIT1                       
+C:   000000AF  s_GSINIT2                       
+C:   000000B9  s_GSINIT3                       
+C:   000000DB  s_GSINIT4                       
+C:   00000100  l_IRAM                          
+C:   00000105  s_GSINIT                        
+C:   00000105  s_GSINIT5                       
+C:   000001A3  l_CONST                         
+C:   000001B2  s_GSFINAL                       
+C:   000001B5  s_CSEG                          
+C:   00000F75  l_CSEG                          
+C:   0000112A  s_CONST                         
+C:   000012CD  s_XINIT                         
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  _P0                                ser1_getchar
+     00000080  _P00                               ser1_getchar
+     00000081  _P01                               ser1_getchar
+     00000081  _SP                                ser1_getchar
+     00000082  _DPL                               ser1_getchar
+     00000082  _P02                               ser1_getchar
+     00000083  _DPH                               ser1_getchar
+     00000083  _P03                               ser1_getchar
+     00000084  _P04                               ser1_getchar
+     00000084  _S4CON                             ser1_getchar
+     00000085  _P05                               ser1_getchar
+     00000085  _S4BUF                             ser1_getchar
+     00000086  _P06                               ser1_getchar
+     00000087  _P07                               ser1_getchar
+     00000087  _PCON                              ser1_getchar
+     00000088  _IT0                               ser1_getchar
+     00000088  _TCON                              ser1_getchar
+     00000089  _IE0                               ser1_getchar
+     00000089  _TMOD                              ser1_getchar
+     0000008A  _IT1                               ser1_getchar
+     0000008A  _TL0                               ser1_getchar
+     0000008B  _IE1                               ser1_getchar
+     0000008B  _TL1                               ser1_getchar
+     0000008C  _TH0                               ser1_getchar
+     0000008C  _TR0                               ser1_getchar
+     0000008D  _TF0                               ser1_getchar
+     0000008D  _TH1                               ser1_getchar
+     0000008E  _AUXR                              ser1_getchar
+     0000008E  _TR1                               ser1_getchar
+     0000008F  _INTCLKO                           ser1_getchar
+     0000008F  _TF1                               ser1_getchar
+     00000090  _P1                                ser1_getchar
+     00000090  _P10                               ser1_getchar
+     00000091  _P11                               ser1_getchar
+     00000091  _P1M1                              ser1_getchar
+     00000092  _P12                               ser1_getchar
+     00000092  _P1M0                              ser1_getchar
+     00000093  _P0M1                              ser1_getchar
+     00000093  _P13                               ser1_getchar
+     00000094  _P0M0                              ser1_getchar
+     00000094  _P14                               ser1_getchar
+     00000095  _P15                               ser1_getchar
+     00000095  _P2M1                              ser1_getchar
+     00000096  _P16                               ser1_getchar
+     00000096  _P2M0                              ser1_getchar
+     00000097  _P17                               ser1_getchar
+     00000098  _RI                                ser1_getchar
+     00000098  _SCON                              ser1_getchar
+     00000099  _SBUF                              ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000099  _TI                                ser1_getchar
+     0000009A  _RB8                               ser1_getchar
+     0000009A  _S2CON                             ser1_getchar
+     0000009B  _S2BUF                             ser1_getchar
+     0000009B  _TB8                               ser1_getchar
+     0000009C  _REN                               ser1_getchar
+     0000009D  _IRCBAND                           ser1_getchar
+     0000009D  _SM2                               ser1_getchar
+     0000009E  _LIRTRIM                           ser1_getchar
+     0000009E  _SM1                               ser1_getchar
+     0000009F  _IRTRIM                            ser1_getchar
+     0000009F  _SM0                               ser1_getchar
+     000000A0  _P2                                ser1_getchar
+     000000A0  _P20                               ser1_getchar
+     000000A0  __XPAGE                            
+     000000A1  _BUS_SPEED                         ser1_getchar
+     000000A1  _P21                               ser1_getchar
+     000000A2  _P22                               ser1_getchar
+     000000A2  _P_SW1                             ser1_getchar
+     000000A3  _P23                               ser1_getchar
+     000000A4  _P24                               ser1_getchar
+     000000A5  _P25                               ser1_getchar
+     000000A6  _P26                               ser1_getchar
+     000000A6  _VRTRIM                            ser1_getchar
+     000000A7  _P27                               ser1_getchar
+     000000A8  _EX0                               ser1_getchar
+     000000A8  _IE                                ser1_getchar
+     000000A9  _ET0                               ser1_getchar
+     000000A9  _SADDR                             ser1_getchar
+     000000AA  _EX1                               ser1_getchar
+     000000AA  _WKTCL                             ser1_getchar
+     000000AB  _ET1                               ser1_getchar
+     000000AB  _WKTCH                             ser1_getchar
+     000000AC  _ES                                ser1_getchar
+     000000AC  _S3CON                             ser1_getchar
+     000000AD  _EADC                              ser1_getchar
+     000000AD  _S3BUF                             ser1_getchar
+     000000AE  _ELVD                              ser1_getchar
+     000000AE  _TA                                ser1_getchar
+     000000AF  _EA                                ser1_getchar
+     000000AF  _IE2                               ser1_getchar
+     000000B0  _P3                                ser1_getchar
+     000000B0  _P30                               ser1_getchar
+     000000B1  _P31                               ser1_getchar
+     000000B1  _P3M1                              ser1_getchar
+     000000B2  _INT0                              ser1_getchar
+     000000B2  _P32                               ser1_getchar
+     000000B2  _P3M0                              ser1_getchar
+     000000B3  _INT1                              ser1_getchar
+     000000B3  _P33                               ser1_getchar
+     000000B3  _P4M1                              ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B4  _P34                               ser1_getchar
+     000000B4  _P4M0                              ser1_getchar
+     000000B4  _T0                                ser1_getchar
+     000000B5  _IP2                               ser1_getchar
+     000000B5  _P35                               ser1_getchar
+     000000B5  _T1                                ser1_getchar
+     000000B6  _IP2H                              ser1_getchar
+     000000B6  _P36                               ser1_getchar
+     000000B6  _WR                                ser1_getchar
+     000000B7  _IPH                               ser1_getchar
+     000000B7  _P37                               ser1_getchar
+     000000B7  _RD                                ser1_getchar
+     000000B8  _IP                                ser1_getchar
+     000000B8  _PX0                               ser1_getchar
+     000000B9  _PT0                               ser1_getchar
+     000000B9  _SADEN                             ser1_getchar
+     000000BA  _PX1                               ser1_getchar
+     000000BA  _P_SW2                             ser1_getchar
+     000000BB  _PT1                               ser1_getchar
+     000000BC  _ADC_CONTR                         ser1_getchar
+     000000BC  _PS                                ser1_getchar
+     000000BD  _ADC_RES                           ser1_getchar
+     000000BD  _PADC                              ser1_getchar
+     000000BE  _ADC_RESL                          ser1_getchar
+     000000BE  _PLVD                              ser1_getchar
+     000000C0  _P4                                ser1_getchar
+     000000C0  _P40                               ser1_getchar
+     000000C1  _P41                               ser1_getchar
+     000000C1  _WDT_CONTR                         ser1_getchar
+     000000C2  _IAP_DATA                          ser1_getchar
+     000000C2  _P42                               ser1_getchar
+     000000C3  _IAP_ADDRH                         ser1_getchar
+     000000C3  _P43                               ser1_getchar
+     000000C4  _IAP_ADDRL                         ser1_getchar
+     000000C4  _P44                               ser1_getchar
+     000000C5  _IAP_CMD                           ser1_getchar
+     000000C5  _P45                               ser1_getchar
+     000000C6  _IAP_TRIG                          ser1_getchar
+     000000C6  _P46                               ser1_getchar
+     000000C7  _IAP_CONTR                         ser1_getchar
+     000000C7  _P47                               ser1_getchar
+     000000C8  _P5                                ser1_getchar
+     000000C8  _P50                               ser1_getchar
+     000000C9  _P51                               ser1_getchar
+     000000C9  _P5M1                              ser1_getchar
+     000000CA  _P52                               ser1_getchar
+     000000CA  _P5M0                              ser1_getchar
+     000000CB  _P53                               ser1_getchar
+     000000CB  _P6M1                              ser1_getchar
+     000000CC  _P54                               ser1_getchar
+     000000CC  _P6M0                              ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CD  _P55                               ser1_getchar
+     000000CD  _SPSTAT                            ser1_getchar
+     000000CE  _P56                               ser1_getchar
+     000000CE  _SPCTL                             ser1_getchar
+     000000CF  _P57                               ser1_getchar
+     000000CF  _SPDAT                             ser1_getchar
+     000000D0  _P                                 ser1_getchar
+     000000D0  _PSW                               ser1_getchar
+     000000D1  _F1                                ser1_getchar
+     000000D1  _T3T4M                             ser1_getchar
+     000000D1  _T4T3M                             ser1_getchar
+     000000D2  _OV                                ser1_getchar
+     000000D2  _T4H                               ser1_getchar
+     000000D2  _TH4                               ser1_getchar
+     000000D3  _RS0                               ser1_getchar
+     000000D3  _T4L                               ser1_getchar
+     000000D3  _TL4                               ser1_getchar
+     000000D4  _RS1                               ser1_getchar
+     000000D4  _T3H                               ser1_getchar
+     000000D4  _TH3                               ser1_getchar
+     000000D5  _F0                                ser1_getchar
+     000000D5  _T3L                               ser1_getchar
+     000000D5  _TL3                               ser1_getchar
+     000000D6  _AC                                ser1_getchar
+     000000D6  _T2H                               ser1_getchar
+     000000D6  _TH2                               ser1_getchar
+     000000D7  _CY                                ser1_getchar
+     000000D7  _T2L                               ser1_getchar
+     000000D7  _TL2                               ser1_getchar
+     000000DC  _PLLCR                             ser1_getchar
+     000000DC  _USBCLK                            ser1_getchar
+     000000DD  _MDU32SR                           ser1_getchar
+     000000DE  _ADCCFG                            ser1_getchar
+     000000DF  _IP3                               ser1_getchar
+     000000E0  _ACC                               ser1_getchar
+     000000E1  _P7M1                              ser1_getchar
+     000000E2  _P7M0                              ser1_getchar
+     000000E3  _DPS                               ser1_getchar
+     000000E4  _DPL1                              ser1_getchar
+     000000E5  _DPH1                              ser1_getchar
+     000000E6  _CMPCR1                            ser1_getchar
+     000000E7  _CMPCR2                            ser1_getchar
+     000000E8  _P6                                ser1_getchar
+     000000E8  _P60                               ser1_getchar
+     000000E9  _P61                               ser1_getchar
+     000000EA  _P62                               ser1_getchar
+     000000EB  _P63                               ser1_getchar
+     000000EC  _P64                               ser1_getchar
+     000000EC  _USBDAT                            ser1_getchar
+     000000ED  _MDU32CR                           ser1_getchar
+     000000ED  _P65                               ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000EE  _IP3H                              ser1_getchar
+     000000EE  _P66                               ser1_getchar
+     000000EF  _AUXINTIF                          ser1_getchar
+     000000EF  _P67                               ser1_getchar
+     000000F0  _B                                 ser1_getchar
+     000000F4  _USBCON                            ser1_getchar
+     000000F5  _B_5                               _gptrget
+     000000F5  _IAP_TPS                           ser1_getchar
+     000000F6  _B_6                               _gptrget
+     000000F7  _B_7                               _gptrget
+     000000F8  _P7                                ser1_getchar
+     000000F8  _P70                               ser1_getchar
+     000000F9  _P71                               ser1_getchar
+     000000FA  _P72                               ser1_getchar
+     000000FB  _P73                               ser1_getchar
+     000000FC  _P74                               ser1_getchar
+     000000FC  _USBADR                            ser1_getchar
+     000000FD  _P75                               ser1_getchar
+     000000FE  _P76                               ser1_getchar
+     000000FF  _P77                               ser1_getchar
+     000000FF  _RSTCFG                            ser1_getchar
+     0000F900  _QSPI_CR1                          ser1_getchar
+     0000F901  _QSPI_CR2                          ser1_getchar
+     0000F902  _QSPI_CR3                          ser1_getchar
+     0000F903  _QSPI_CR4                          ser1_getchar
+     0000F904  _QSPI_DCR1                         ser1_getchar
+     0000F905  _QSPI_DCR2                         ser1_getchar
+     0000F906  _QSPI_SR1                          ser1_getchar
+     0000F907  _QSPI_SR2                          ser1_getchar
+     0000F908  _QSPI_FCR                          ser1_getchar
+     0000F909  _QSPI_HCR1                         ser1_getchar
+     0000F90A  _QSPI_HCR2                         ser1_getchar
+     0000F910  _QSPI_DLR1                         ser1_getchar
+     0000F911  _QSPI_DLR2                         ser1_getchar
+     0000F914  _QSPI_CCR1                         ser1_getchar
+     0000F915  _QSPI_CCR2                         ser1_getchar
+     0000F916  _QSPI_CCR3                         ser1_getchar
+     0000F917  _QSPI_CCR4                         ser1_getchar
+     0000F918  _QSPI_AR1                          ser1_getchar
+     0000F919  _QSPI_AR2                          ser1_getchar
+     0000F91A  _QSPI_AR3                          ser1_getchar
+     0000F91B  _QSPI_AR4                          ser1_getchar
+     0000F91C  _QSPI_ABR1                         ser1_getchar
+     0000F920  _QSPI_DR                           ser1_getchar
+     0000F924  _QSPI_PSMKR1                       ser1_getchar
+     0000F928  _QSPI_PSMAR1                       ser1_getchar
+     0000F92C  _QSPI_PIR1                         ser1_getchar
+     0000F92D  _QSPI_PIR2                         ser1_getchar
+     0000F930  _PWMA_ENO2                         ser1_getchar
+     0000F931  _PWMA_IOAUX2                       ser1_getchar
+     0000F932  _PWMA_CR3                          ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000F933  _PWMA_SR3                          ser1_getchar
+     0000F934  _PWMA_CCER3                        ser1_getchar
+     0000F938  _PWMA_CCMR1X                       ser1_getchar
+     0000F939  _PWMA_CCMR2X                       ser1_getchar
+     0000F93A  _PWMA_CCMR3X                       ser1_getchar
+     0000F93B  _PWMA_CCMR4X                       ser1_getchar
+     0000F93C  _PWMA_CCMR5                        ser1_getchar
+     0000F93D  _PWMA_CCMR5X                       ser1_getchar
+     0000F93E  _PWMA_CCMR6                        ser1_getchar
+     0000F93F  _PWMA_CCMR6X                       ser1_getchar
+     0000F940  _PWMA_CCR5H                        ser1_getchar
+     0000F941  _PWMA_CCR5L                        ser1_getchar
+     0000F942  _PWMA_CCR5X                        ser1_getchar
+     0000F943  _PWMA_CCR6H                        ser1_getchar
+     0000F944  _PWMA_CCR6L                        ser1_getchar
+     0000F948  _PWMA_DER                          ser1_getchar
+     0000F949  _PWMA_DBA                          ser1_getchar
+     0000F94A  _PWMA_DBL                          ser1_getchar
+     0000F94B  _PWMA_DMACR                        ser1_getchar
+     0000FA00  _DMA_M2M_CFG                       ser1_getchar
+     0000FA01  _DMA_M2M_CR                        ser1_getchar
+     0000FA02  _DMA_M2M_STA                       ser1_getchar
+     0000FA03  _DMA_M2M_AMT                       ser1_getchar
+     0000FA04  _DMA_M2M_DONE                      ser1_getchar
+     0000FA05  _DMA_M2M_TXAH                      ser1_getchar
+     0000FA06  _DMA_M2M_TXAL                      ser1_getchar
+     0000FA07  _DMA_M2M_RXAH                      ser1_getchar
+     0000FA08  _DMA_M2M_RXAL                      ser1_getchar
+     0000FA10  _DMA_ADC_CFG                       ser1_getchar
+     0000FA11  _DMA_ADC_CR                        ser1_getchar
+     0000FA12  _DMA_ADC_STA                       ser1_getchar
+     0000FA13  _DMA_ADC_AMT                       ser1_getchar
+     0000FA17  _DMA_ADC_RXAH                      ser1_getchar
+     0000FA18  _DMA_ADC_RXAL                      ser1_getchar
+     0000FA19  _DMA_ADC_CFG2                      ser1_getchar
+     0000FA1A  _DMA_ADC_CHSW0                     ser1_getchar
+     0000FA1B  _DMA_ADC_CHSW1                     ser1_getchar
+     0000FA1E  _DMA_ADC_ITVH                      ser1_getchar
+     0000FA1F  _DMA_ADC_ITVL                      ser1_getchar
+     0000FA20  _DMA_SPI_CFG                       ser1_getchar
+     0000FA21  _DMA_SPI_CR                        ser1_getchar
+     0000FA22  _DMA_SPI_STA                       ser1_getchar
+     0000FA23  _DMA_SPI_AMT                       ser1_getchar
+     0000FA24  _DMA_ADC_DONE                      ser1_getchar
+     0000FA24  _DMA_SPI_DONE                      ser1_getchar
+     0000FA25  _DMA_SPI_TXAH                      ser1_getchar
+     0000FA26  _DMA_SPI_TXAL                      ser1_getchar
+     0000FA27  _DMA_SPI_RXAH                      ser1_getchar
+     0000FA28  _DMA_SPI_RXAL                      ser1_getchar
+     0000FA29  _DMA_SPI_CFG2                      ser1_getchar
+     0000FA2E  _DMA_SPI_ITVH                      ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FA2F  _DMA_SPI_ITVL                      ser1_getchar
+     0000FA30  _DMA_UR1T_CFG                      ser1_getchar
+     0000FA31  _DMA_UR1T_CR                       ser1_getchar
+     0000FA32  _DMA_UR1T_STA                      ser1_getchar
+     0000FA33  _DMA_UR1T_AMT                      ser1_getchar
+     0000FA34  _DMA_UR1T_DONE                     ser1_getchar
+     0000FA35  _DMA_UR1T_TXAH                     ser1_getchar
+     0000FA36  _DMA_UR1T_TXAL                     ser1_getchar
+     0000FA38  _DMA_UR1R_CFG                      ser1_getchar
+     0000FA39  _DMA_UR1R_CR                       ser1_getchar
+     0000FA3A  _DMA_UR1R_STA                      ser1_getchar
+     0000FA3B  _DMA_UR1R_AMT                      ser1_getchar
+     0000FA3C  _DMA_UR1R_DONE                     ser1_getchar
+     0000FA3D  _DMA_UR1R_RXAH                     ser1_getchar
+     0000FA3E  _DMA_UR1R_RXAL                     ser1_getchar
+     0000FA40  _DMA_UR2T_CFG                      ser1_getchar
+     0000FA41  _DMA_UR2T_CR                       ser1_getchar
+     0000FA42  _DMA_UR2T_STA                      ser1_getchar
+     0000FA43  _DMA_UR2T_AMT                      ser1_getchar
+     0000FA44  _DMA_UR2T_DONE                     ser1_getchar
+     0000FA45  _DMA_UR2T_TXAH                     ser1_getchar
+     0000FA46  _DMA_UR2T_TXAL                     ser1_getchar
+     0000FA48  _DMA_UR2R_CFG                      ser1_getchar
+     0000FA49  _DMA_UR2R_CR                       ser1_getchar
+     0000FA4A  _DMA_UR2R_STA                      ser1_getchar
+     0000FA4B  _DMA_UR2R_AMT                      ser1_getchar
+     0000FA4C  _DMA_UR2R_DONE                     ser1_getchar
+     0000FA4D  _DMA_UR2R_RXAH                     ser1_getchar
+     0000FA4E  _DMA_UR2R_RXAL                     ser1_getchar
+     0000FA50  _DMA_UR3T_CFG                      ser1_getchar
+     0000FA51  _DMA_UR3T_CR                       ser1_getchar
+     0000FA52  _DMA_UR3T_STA                      ser1_getchar
+     0000FA53  _DMA_UR3T_AMT                      ser1_getchar
+     0000FA54  _DMA_UR3T_DONE                     ser1_getchar
+     0000FA55  _DMA_UR3T_TXAH                     ser1_getchar
+     0000FA56  _DMA_UR3T_TXAL                     ser1_getchar
+     0000FA58  _DMA_UR3R_CFG                      ser1_getchar
+     0000FA59  _DMA_UR3R_CR                       ser1_getchar
+     0000FA5A  _DMA_UR3R_STA                      ser1_getchar
+     0000FA5B  _DMA_UR3R_AMT                      ser1_getchar
+     0000FA5C  _DMA_UR3R_DONE                     ser1_getchar
+     0000FA5D  _DMA_UR3R_RXAH                     ser1_getchar
+     0000FA5E  _DMA_UR3R_RXAL                     ser1_getchar
+     0000FA60  _DMA_UR4T_CFG                      ser1_getchar
+     0000FA61  _DMA_UR4T_CR                       ser1_getchar
+     0000FA62  _DMA_UR4T_STA                      ser1_getchar
+     0000FA63  _DMA_UR4T_AMT                      ser1_getchar
+     0000FA64  _DMA_UR4T_DONE                     ser1_getchar
+     0000FA65  _DMA_UR4T_TXAH                     ser1_getchar
+     0000FA66  _DMA_UR4T_TXAL                     ser1_getchar
+     0000FA68  _DMA_UR4R_CFG                      ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FA69  _DMA_UR4R_CR                       ser1_getchar
+     0000FA6A  _DMA_UR4R_STA                      ser1_getchar
+     0000FA6B  _DMA_UR4R_AMT                      ser1_getchar
+     0000FA6C  _DMA_UR4R_DONE                     ser1_getchar
+     0000FA6D  _DMA_UR4R_RXAH                     ser1_getchar
+     0000FA6E  _DMA_UR4R_RXAL                     ser1_getchar
+     0000FA70  _DMA_LCM_CFG                       ser1_getchar
+     0000FA71  _DMA_LCM_CR                        ser1_getchar
+     0000FA72  _DMA_LCM_STA                       ser1_getchar
+     0000FA73  _DMA_LCM_AMT                       ser1_getchar
+     0000FA74  _DMA_LCM_DONE                      ser1_getchar
+     0000FA75  _DMA_LCM_TXAH                      ser1_getchar
+     0000FA76  _DMA_LCM_TXAL                      ser1_getchar
+     0000FA77  _DMA_LCM_RXAH                      ser1_getchar
+     0000FA78  _DMA_LCM_RXAL                      ser1_getchar
+     0000FA7E  _DMA_LCM_ITVH                      ser1_getchar
+     0000FA7F  _DMA_LCM_ITVL                      ser1_getchar
+     0000FA80  _DMA_M2M_AMTH                      ser1_getchar
+     0000FA81  _DMA_M2M_DONEH                     ser1_getchar
+     0000FA82  _DMA_ADC_AMTH                      ser1_getchar
+     0000FA83  _DMA_ADC_DONEH                     ser1_getchar
+     0000FA84  _DMA_SPI_AMTH                      ser1_getchar
+     0000FA85  _DMA_SPI_DONEH                     ser1_getchar
+     0000FA86  _DMA_LCM_AMTH                      ser1_getchar
+     0000FA87  _DMA_LCM_DONEH                     ser1_getchar
+     0000FA88  _DMA_UR1T_AMTH                     ser1_getchar
+     0000FA89  _DMA_UR1T_DONEH                    ser1_getchar
+     0000FA8A  _DMA_UR1R_AMTH                     ser1_getchar
+     0000FA8B  _DMA_UR1R_DONEH                    ser1_getchar
+     0000FA8C  _DMA_UR2T_AMTH                     ser1_getchar
+     0000FA8D  _DMA_UR2T_DONEH                    ser1_getchar
+     0000FA8E  _DMA_UR2R_AMTH                     ser1_getchar
+     0000FA8F  _DMA_UR2R_DONEH                    ser1_getchar
+     0000FA90  _DMA_UR3T_AMTH                     ser1_getchar
+     0000FA91  _DMA_UR3T_DONEH                    ser1_getchar
+     0000FA92  _DMA_UR3R_AMTH                     ser1_getchar
+     0000FA93  _DMA_UR3R_DONEH                    ser1_getchar
+     0000FA94  _DMA_UR4T_AMTH                     ser1_getchar
+     0000FA95  _DMA_UR4T_DONEH                    ser1_getchar
+     0000FA96  _DMA_UR4R_AMTH                     ser1_getchar
+     0000FA97  _DMA_UR4R_DONEH                    ser1_getchar
+     0000FA98  _DMA_I2CT_CFG                      ser1_getchar
+     0000FA99  _DMA_I2CT_CR                       ser1_getchar
+     0000FA9A  _DMA_I2CT_STA                      ser1_getchar
+     0000FA9B  _DMA_I2CT_AMT                      ser1_getchar
+     0000FA9C  _DMA_I2CT_DONE                     ser1_getchar
+     0000FA9D  _DMA_I2CT_TXAH                     ser1_getchar
+     0000FA9E  _DMA_I2CT_TXAL                     ser1_getchar
+     0000FAA0  _DMA_I2CR_CFG                      ser1_getchar
+     0000FAA1  _DMA_I2CR_CR                       ser1_getchar
+     0000FAA2  _DMA_I2CR_STA                      ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FAA3  _DMA_I2CR_AMT                      ser1_getchar
+     0000FAA4  _DMA_I2CR_DONE                     ser1_getchar
+     0000FAA5  _DMA_I2CR_RXAH                     ser1_getchar
+     0000FAA6  _DMA_I2CR_RXAL                     ser1_getchar
+     0000FAA8  _DMA_I2CT_AMTH                     ser1_getchar
+     0000FAA9  _DMA_I2CT_DONEH                    ser1_getchar
+     0000FAAA  _DMA_I2CR_AMTH                     ser1_getchar
+     0000FAAB  _DMA_I2CR_DONEH                    ser1_getchar
+     0000FAAD  _DMA_I2C_CR                        ser1_getchar
+     0000FAAE  _DMA_I2C_ST1                       ser1_getchar
+     0000FAAF  _DMA_I2C_ST2                       ser1_getchar
+     0000FAC4  _DMA_I2C_ITVH                      ser1_getchar
+     0000FAC5  _DMA_I2C_ITVL                      ser1_getchar
+     0000FAC8  _DMA_UR1_ITVH                      ser1_getchar
+     0000FAC9  _DMA_UR1_ITVL                      ser1_getchar
+     0000FACA  _DMA_UR2_ITVH                      ser1_getchar
+     0000FACB  _DMA_UR2_ITVL                      ser1_getchar
+     0000FACC  _DMA_UR3_ITVH                      ser1_getchar
+     0000FACD  _DMA_UR3_ITVL                      ser1_getchar
+     0000FACE  _DMA_UR4_ITVH                      ser1_getchar
+     0000FACF  _DMA_UR4_ITVL                      ser1_getchar
+     0000FAD0  _DMA_QSPI_CFG                      ser1_getchar
+     0000FAD1  _DMA_QSPI_CR                       ser1_getchar
+     0000FAD2  _DMA_QSPI_STA                      ser1_getchar
+     0000FAD3  _DMA_QSPI_AMT                      ser1_getchar
+     0000FAD4  _DMA_QSPI_DONE                     ser1_getchar
+     0000FAD5  _DMA_QSPI_TXAH                     ser1_getchar
+     0000FAD6  _DMA_QSPI_TXAL                     ser1_getchar
+     0000FAD7  _DMA_QSPI_RXAH                     ser1_getchar
+     0000FAD8  _DMA_QSPI_RXAL                     ser1_getchar
+     0000FADB  _DMA_QSPI_AMTH                     ser1_getchar
+     0000FADC  _DMA_QSPI_DONEH                    ser1_getchar
+     0000FADE  _DMA_QSPI_ITVH                     ser1_getchar
+     0000FADF  _DMA_QSPI_ITVL                     ser1_getchar
+     0000FAF0  _DMA_P2P_CR1                       ser1_getchar
+     0000FAF1  _DMA_P2P_CR2                       ser1_getchar
+     0000FAF8  _DMA_ARB_CFG                       ser1_getchar
+     0000FAF9  _DMA_ARB_STA                       ser1_getchar
+     0000FB00  _COMEN                             ser1_getchar
+     0000FB01  _SEGENL                            ser1_getchar
+     0000FB02  _SEGENH                            ser1_getchar
+     0000FB03  _LEDCTRL                           ser1_getchar
+     0000FB04  _LEDCKS                            ser1_getchar
+     0000FB10  _COM0_DA_L                         ser1_getchar
+     0000FB11  _COM1_DA_L                         ser1_getchar
+     0000FB12  _COM2_DA_L                         ser1_getchar
+     0000FB13  _COM3_DA_L                         ser1_getchar
+     0000FB14  _COM4_DA_L                         ser1_getchar
+     0000FB15  _COM5_DA_L                         ser1_getchar
+     0000FB16  _COM6_DA_L                         ser1_getchar
+     0000FB17  _COM7_DA_L                         ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FB18  _COM0_DA_H                         ser1_getchar
+     0000FB19  _COM1_DA_H                         ser1_getchar
+     0000FB1A  _COM2_DA_H                         ser1_getchar
+     0000FB1B  _COM3_DA_H                         ser1_getchar
+     0000FB1C  _COM4_DA_H                         ser1_getchar
+     0000FB1D  _COM5_DA_H                         ser1_getchar
+     0000FB1E  _COM6_DA_H                         ser1_getchar
+     0000FB1F  _COM7_DA_H                         ser1_getchar
+     0000FB20  _COM0_DC_L                         ser1_getchar
+     0000FB21  _COM1_DC_L                         ser1_getchar
+     0000FB22  _COM2_DC_L                         ser1_getchar
+     0000FB23  _COM3_DC_L                         ser1_getchar
+     0000FB24  _COM4_DC_L                         ser1_getchar
+     0000FB25  _COM5_DC_L                         ser1_getchar
+     0000FB26  _COM6_DC_L                         ser1_getchar
+     0000FB27  _COM7_DC_L                         ser1_getchar
+     0000FB28  _COM0_DC_H                         ser1_getchar
+     0000FB29  _COM1_DC_H                         ser1_getchar
+     0000FB2A  _COM2_DC_H                         ser1_getchar
+     0000FB2B  _COM3_DC_H                         ser1_getchar
+     0000FB2C  _COM4_DC_H                         ser1_getchar
+     0000FB2D  _COM5_DC_H                         ser1_getchar
+     0000FB2E  _COM6_DC_H                         ser1_getchar
+     0000FB2F  _COM7_DC_H                         ser1_getchar
+     0000FB30  _CRC16_CR                          ser1_getchar
+     0000FB31  _CRC16_DIN                         ser1_getchar
+     0000FB32  _CRC16_DOH                         ser1_getchar
+     0000FB33  _CRC16_DOL                         ser1_getchar
+     0000FB40  _TSCHEN1                           ser1_getchar
+     0000FB41  _TSCHEN2                           ser1_getchar
+     0000FB42  _TSCFG1                            ser1_getchar
+     0000FB43  _TSCFG2                            ser1_getchar
+     0000FB44  _TSWUTC                            ser1_getchar
+     0000FB45  _TSCTRL                            ser1_getchar
+     0000FB46  _TSSTA1                            ser1_getchar
+     0000FB47  _TSSTA2                            ser1_getchar
+     0000FB48  _TSRT                              ser1_getchar
+     0000FB49  _TSDAT                             ser1_getchar
+     0000FB49  _TSDATH                            ser1_getchar
+     0000FB4A  _TSDATL                            ser1_getchar
+     0000FB50  _TSTH00                            ser1_getchar
+     0000FB50  _TSTH00H                           ser1_getchar
+     0000FB51  _TSTH00L                           ser1_getchar
+     0000FB52  _TSTH01                            ser1_getchar
+     0000FB52  _TSTH01H                           ser1_getchar
+     0000FB53  _TSTH01L                           ser1_getchar
+     0000FB54  _TSTH02                            ser1_getchar
+     0000FB54  _TSTH02H                           ser1_getchar
+     0000FB55  _TSTH02L                           ser1_getchar
+     0000FB56  _TSTH03                            ser1_getchar
+     0000FB56  _TSTH03H                           ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FB57  _TSTH03L                           ser1_getchar
+     0000FB58  _TSTH04                            ser1_getchar
+     0000FB58  _TSTH04H                           ser1_getchar
+     0000FB59  _TSTH04L                           ser1_getchar
+     0000FB5A  _TSTH05                            ser1_getchar
+     0000FB5A  _TSTH05H                           ser1_getchar
+     0000FB5B  _TSTH05L                           ser1_getchar
+     0000FB5C  _TSTH06                            ser1_getchar
+     0000FB5C  _TSTH06H                           ser1_getchar
+     0000FB5D  _TSTH06L                           ser1_getchar
+     0000FB5E  _TSTH07                            ser1_getchar
+     0000FB5E  _TSTH07H                           ser1_getchar
+     0000FB5F  _TSTH07L                           ser1_getchar
+     0000FB60  _TSTH08                            ser1_getchar
+     0000FB60  _TSTH08H                           ser1_getchar
+     0000FB61  _TSTH08L                           ser1_getchar
+     0000FB62  _TSTH09                            ser1_getchar
+     0000FB62  _TSTH09H                           ser1_getchar
+     0000FB63  _TSTH09L                           ser1_getchar
+     0000FB64  _TSTH10                            ser1_getchar
+     0000FB64  _TSTH10H                           ser1_getchar
+     0000FB65  _TSTH10L                           ser1_getchar
+     0000FB66  _TSTH11                            ser1_getchar
+     0000FB66  _TSTH11H                           ser1_getchar
+     0000FB67  _TSTH11L                           ser1_getchar
+     0000FB68  _TSTH12                            ser1_getchar
+     0000FB68  _TSTH12H                           ser1_getchar
+     0000FB69  _TSTH12L                           ser1_getchar
+     0000FB6A  _TSTH13                            ser1_getchar
+     0000FB6A  _TSTH13H                           ser1_getchar
+     0000FB6B  _TSTH13L                           ser1_getchar
+     0000FB6C  _TSTH14                            ser1_getchar
+     0000FB6C  _TSTH14H                           ser1_getchar
+     0000FB6D  _TSTH14L                           ser1_getchar
+     0000FB6E  _TSTH15                            ser1_getchar
+     0000FB6E  _TSTH15H                           ser1_getchar
+     0000FB6F  _TSTH15L                           ser1_getchar
+     0000FB80  _LCDCFG                            ser1_getchar
+     0000FB81  _LCDCFG2                           ser1_getchar
+     0000FB82  _DBLEN                             ser1_getchar
+     0000FB83  _COMLENL                           ser1_getchar
+     0000FB84  _COMLENM                           ser1_getchar
+     0000FB85  _COMLENH                           ser1_getchar
+     0000FB86  _BLINKRATE                         ser1_getchar
+     0000FB87  _LCDCR                             ser1_getchar
+     0000FB88  _COMON                             ser1_getchar
+     0000FB8A  _SEGON1                            ser1_getchar
+     0000FB8B  _SEGON2                            ser1_getchar
+     0000FB8C  _SEGON3                            ser1_getchar
+     0000FB8D  _SEGON4                            ser1_getchar
+     0000FB8E  _SEGON5                            ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FB90  _C0SEGV0                           ser1_getchar
+     0000FB91  _C0SEGV1                           ser1_getchar
+     0000FB92  _C0SEGV2                           ser1_getchar
+     0000FB93  _C0SEGV3                           ser1_getchar
+     0000FB94  _C0SEGV4                           ser1_getchar
+     0000FB98  _C1SEGV0                           ser1_getchar
+     0000FB99  _C1SEGV1                           ser1_getchar
+     0000FB9A  _C1SEGV2                           ser1_getchar
+     0000FB9B  _C1SEGV3                           ser1_getchar
+     0000FB9C  _C1SEGV4                           ser1_getchar
+     0000FBA0  _C2SEGV0                           ser1_getchar
+     0000FBA1  _C2SEGV1                           ser1_getchar
+     0000FBA2  _C2SEGV2                           ser1_getchar
+     0000FBA3  _C2SEGV3                           ser1_getchar
+     0000FBA4  _C2SEGV4                           ser1_getchar
+     0000FBA8  _C3SEGV0                           ser1_getchar
+     0000FBA9  _C3SEGV1                           ser1_getchar
+     0000FBAA  _C3SEGV2                           ser1_getchar
+     0000FBAB  _C3SEGV3                           ser1_getchar
+     0000FBAC  _C3SEGV4                           ser1_getchar
+     0000FBF0  _HSPWMA_CFG                        ser1_getchar
+     0000FBF1  _HSPWMA_ADR                        ser1_getchar
+     0000FBF2  _HSPWMA_DAT                        ser1_getchar
+     0000FBF4  _HSPWMB_CFG                        ser1_getchar
+     0000FBF5  _HSPWMB_ADR                        ser1_getchar
+     0000FBF6  _HSPWMB_DAT                        ser1_getchar
+     0000FCF0  _MD3                               ser1_getchar
+     0000FCF1  _MD2                               ser1_getchar
+     0000FCF2  _MD1                               ser1_getchar
+     0000FCF3  _MD0                               ser1_getchar
+     0000FCF4  _MD5                               ser1_getchar
+     0000FCF5  _MD4                               ser1_getchar
+     0000FCF6  _ARCON                             ser1_getchar
+     0000FCF7  _OPCON                             ser1_getchar
+     0000FD00  _P0INTE                            ser1_getchar
+     0000FD01  _P1INTE                            ser1_getchar
+     0000FD02  _P2INTE                            ser1_getchar
+     0000FD03  _P3INTE                            ser1_getchar
+     0000FD04  _P4INTE                            ser1_getchar
+     0000FD05  _P5INTE                            ser1_getchar
+     0000FD06  _P6INTE                            ser1_getchar
+     0000FD07  _P7INTE                            ser1_getchar
+     0000FD10  _P0INTF                            ser1_getchar
+     0000FD11  _P1INTF                            ser1_getchar
+     0000FD12  _P2INTF                            ser1_getchar
+     0000FD13  _P3INTF                            ser1_getchar
+     0000FD14  _P4INTF                            ser1_getchar
+     0000FD15  _P5INTF                            ser1_getchar
+     0000FD16  _P6INTF                            ser1_getchar
+     0000FD17  _P7INTF                            ser1_getchar
+     0000FD20  _P0IM0                             ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FD21  _P1IM0                             ser1_getchar
+     0000FD22  _P2IM0                             ser1_getchar
+     0000FD23  _P3IM0                             ser1_getchar
+     0000FD24  _P4IM0                             ser1_getchar
+     0000FD25  _P5IM0                             ser1_getchar
+     0000FD26  _P6IM0                             ser1_getchar
+     0000FD27  _P7IM0                             ser1_getchar
+     0000FD30  _P0IM1                             ser1_getchar
+     0000FD31  _P1IM1                             ser1_getchar
+     0000FD32  _P2IM1                             ser1_getchar
+     0000FD33  _P3IM1                             ser1_getchar
+     0000FD34  _P4IM1                             ser1_getchar
+     0000FD35  _P5IM1                             ser1_getchar
+     0000FD36  _P6IM1                             ser1_getchar
+     0000FD37  _P7IM1                             ser1_getchar
+     0000FD40  _P0WKUE                            ser1_getchar
+     0000FD41  _P1WKUE                            ser1_getchar
+     0000FD42  _P2WKUE                            ser1_getchar
+     0000FD43  _P3WKUE                            ser1_getchar
+     0000FD44  _P4WKUE                            ser1_getchar
+     0000FD45  _P5WKUE                            ser1_getchar
+     0000FD46  _P6WKUE                            ser1_getchar
+     0000FD47  _P7WKUE                            ser1_getchar
+     0000FD60  _PINIPL                            ser1_getchar
+     0000FD61  _PINIPH                            ser1_getchar
+     0000FD69  _P_SWX1                            ser1_getchar
+     0000FD70  _UR1TOCR                           ser1_getchar
+     0000FD71  _UR1TOSR                           ser1_getchar
+     0000FD72  _UR1TOTH                           ser1_getchar
+     0000FD73  _UR1TOTL                           ser1_getchar
+     0000FD74  _UR2TOCR                           ser1_getchar
+     0000FD75  _UR2TOSR                           ser1_getchar
+     0000FD76  _UR2TOTH                           ser1_getchar
+     0000FD77  _UR2TOTL                           ser1_getchar
+     0000FD80  _SPITOCR                           ser1_getchar
+     0000FD81  _SPITOSR                           ser1_getchar
+     0000FD82  _SPITOTH                           ser1_getchar
+     0000FD83  _SPITOTL                           ser1_getchar
+     0000FD84  _I2CTOCR                           ser1_getchar
+     0000FD85  _I2CTOSR                           ser1_getchar
+     0000FD86  _I2CTOTH                           ser1_getchar
+     0000FD87  _I2CTOTL                           ser1_getchar
+     0000FD88  _UR1TOTE                           ser1_getchar
+     0000FD89  _UR2TOTE                           ser1_getchar
+     0000FD8C  _SPITOTE                           ser1_getchar
+     0000FD8D  _I2CTOTE                           ser1_getchar
+     0000FDA8  _CRECR                             ser1_getchar
+     0000FDA9  _CRECNTH                           ser1_getchar
+     0000FDAA  _CRECNTL                           ser1_getchar
+     0000FDAB  _CRERES                            ser1_getchar
+     0000FDC1  _USARTCR2                          ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FDC9  _USART2CR2                         ser1_getchar
+     0000FDE0  _CHIPID0                           ser1_getchar
+     0000FDE1  _CHIPID1                           ser1_getchar
+     0000FDE2  _CHIPID2                           ser1_getchar
+     0000FDE3  _CHIPID3                           ser1_getchar
+     0000FDE4  _CHIPID4                           ser1_getchar
+     0000FDE5  _CHIPID5                           ser1_getchar
+     0000FDE6  _CHIPID6                           ser1_getchar
+     0000FDE7  _CHIPID7                           ser1_getchar
+     0000FDE8  _CHIPID8                           ser1_getchar
+     0000FDE9  _CHIPID9                           ser1_getchar
+     0000FDEA  _CHIPID10                          ser1_getchar
+     0000FDEB  _CHIPID11                          ser1_getchar
+     0000FDEC  _CHIPID12                          ser1_getchar
+     0000FDED  _CHIPID13                          ser1_getchar
+     0000FDEE  _CHIPID14                          ser1_getchar
+     0000FDEF  _CHIPID15                          ser1_getchar
+     0000FDF0  _CHIPID16                          ser1_getchar
+     0000FDF1  _CHIPID17                          ser1_getchar
+     0000FDF2  _CHIPID18                          ser1_getchar
+     0000FDF3  _CHIPID19                          ser1_getchar
+     0000FDF4  _CHIPID20                          ser1_getchar
+     0000FDF5  _CHIPID21                          ser1_getchar
+     0000FDF6  _CHIPID22                          ser1_getchar
+     0000FDF7  _CHIPID23                          ser1_getchar
+     0000FDF8  _CHIPID24                          ser1_getchar
+     0000FDF9  _CHIPID25                          ser1_getchar
+     0000FDFA  _CHIPID26                          ser1_getchar
+     0000FDFB  _CHIPID27                          ser1_getchar
+     0000FDFC  _CHIPID28                          ser1_getchar
+     0000FDFD  _CHIPID29                          ser1_getchar
+     0000FDFE  _CHIPID30                          ser1_getchar
+     0000FDFF  _CHIPID31                          ser1_getchar
+     0000FE00  _CLKSEL                            ser1_getchar
+     0000FE01  _CLKDIV                            ser1_getchar
+     0000FE02  _HIRCCR                            ser1_getchar
+     0000FE03  _XOSCCR                            ser1_getchar
+     0000FE04  _IRC32KCR                          ser1_getchar
+     0000FE05  _MCLKOCR                           ser1_getchar
+     0000FE06  _IRCDB                             ser1_getchar
+     0000FE07  _IRC48MCR                          ser1_getchar
+     0000FE08  _X32KCR                            ser1_getchar
+     0000FE0B  _HSCLKDIV                          ser1_getchar
+     0000FE10  _P0PU                              ser1_getchar
+     0000FE11  _P1PU                              ser1_getchar
+     0000FE12  _P2PU                              ser1_getchar
+     0000FE13  _P3PU                              ser1_getchar
+     0000FE14  _P4PU                              ser1_getchar
+     0000FE15  _P5PU                              ser1_getchar
+     0000FE16  _P6PU                              ser1_getchar
+     0000FE17  _P7PU                              ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FE18  _P0NCS                             ser1_getchar
+     0000FE19  _P1NCS                             ser1_getchar
+     0000FE1A  _P2NCS                             ser1_getchar
+     0000FE1B  _P3NCS                             ser1_getchar
+     0000FE1C  _P4NCS                             ser1_getchar
+     0000FE1D  _P5NCS                             ser1_getchar
+     0000FE1E  _P6NCS                             ser1_getchar
+     0000FE1F  _P7NCS                             ser1_getchar
+     0000FE20  _P0SR                              ser1_getchar
+     0000FE21  _P1SR                              ser1_getchar
+     0000FE22  _P2SR                              ser1_getchar
+     0000FE23  _P3SR                              ser1_getchar
+     0000FE24  _P4SR                              ser1_getchar
+     0000FE25  _P5SR                              ser1_getchar
+     0000FE26  _P6SR                              ser1_getchar
+     0000FE27  _P7SR                              ser1_getchar
+     0000FE28  _P0DR                              ser1_getchar
+     0000FE29  _P1DR                              ser1_getchar
+     0000FE2A  _P2DR                              ser1_getchar
+     0000FE2B  _P3DR                              ser1_getchar
+     0000FE2C  _P4DR                              ser1_getchar
+     0000FE2D  _P5DR                              ser1_getchar
+     0000FE2E  _P6DR                              ser1_getchar
+     0000FE2F  _P7DR                              ser1_getchar
+     0000FE30  _P0IE                              ser1_getchar
+     0000FE31  _P1IE                              ser1_getchar
+     0000FE32  _P2IE                              ser1_getchar
+     0000FE33  _P3IE                              ser1_getchar
+     0000FE34  _P4IE                              ser1_getchar
+     0000FE35  _P5IE                              ser1_getchar
+     0000FE36  _P6IE                              ser1_getchar
+     0000FE37  _P7IE                              ser1_getchar
+     0000FE40  _P0PD                              ser1_getchar
+     0000FE41  _P1PD                              ser1_getchar
+     0000FE42  _P2PD                              ser1_getchar
+     0000FE43  _P3PD                              ser1_getchar
+     0000FE44  _P4PD                              ser1_getchar
+     0000FE45  _P5PD                              ser1_getchar
+     0000FE46  _P6PD                              ser1_getchar
+     0000FE47  _P7PD                              ser1_getchar
+     0000FE50  _LCMIFCFG                          ser1_getchar
+     0000FE51  _LCMIFCFG2                         ser1_getchar
+     0000FE52  _LCMIFCR                           ser1_getchar
+     0000FE53  _LCMIFSTA                          ser1_getchar
+     0000FE54  _LCMIFDATL                         ser1_getchar
+     0000FE55  _LCMIFDATH                         ser1_getchar
+     0000FE60  _RTCCR                             ser1_getchar
+     0000FE61  _RTCCFG                            ser1_getchar
+     0000FE62  _RTCIEN                            ser1_getchar
+     0000FE63  _RTCIF                             ser1_getchar
+     0000FE64  _ALAHOUR                           ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FE65  _ALAMIN                            ser1_getchar
+     0000FE66  _ALASEC                            ser1_getchar
+     0000FE67  _ALASSEC                           ser1_getchar
+     0000FE68  _INIYEAR                           ser1_getchar
+     0000FE69  _INIMONTH                          ser1_getchar
+     0000FE6A  _INIDAY                            ser1_getchar
+     0000FE6B  _INIHOUR                           ser1_getchar
+     0000FE6C  _INIMIN                            ser1_getchar
+     0000FE6D  _INISEC                            ser1_getchar
+     0000FE6E  _INISSEC                           ser1_getchar
+     0000FE6F  _INIWEEK                           ser1_getchar
+     0000FE6F  _RTCWEEK                           ser1_getchar
+     0000FE70  _RTCYEAR                           ser1_getchar
+     0000FE71  _RTCMONTH                          ser1_getchar
+     0000FE72  _RTCDAY                            ser1_getchar
+     0000FE73  _RTCHOUR                           ser1_getchar
+     0000FE74  _RTCMIN                            ser1_getchar
+     0000FE75  _RTCSEC                            ser1_getchar
+     0000FE76  _RTCSSEC                           ser1_getchar
+     0000FE78  _T11CR                             ser1_getchar
+     0000FE79  _T11PS                             ser1_getchar
+     0000FE7A  _T11H                              ser1_getchar
+     0000FE7B  _T11L                              ser1_getchar
+     0000FE80  _I2CCFG                            ser1_getchar
+     0000FE81  _I2CMSCR                           ser1_getchar
+     0000FE82  _I2CMSST                           ser1_getchar
+     0000FE83  _I2CSLCR                           ser1_getchar
+     0000FE84  _I2CSLST                           ser1_getchar
+     0000FE85  _I2CSLADR                          ser1_getchar
+     0000FE86  _I2CTXD                            ser1_getchar
+     0000FE87  _I2CRXD                            ser1_getchar
+     0000FE88  _I2CMSAUX                          ser1_getchar
+     0000FE99  _RSTFLAG                           ser1_getchar
+     0000FEA0  _TM0PS                             ser1_getchar
+     0000FEA1  _TM1PS                             ser1_getchar
+     0000FEA2  _TM2PS                             ser1_getchar
+     0000FEA3  _TM3PS                             ser1_getchar
+     0000FEA4  _TM4PS                             ser1_getchar
+     0000FEA8  _ADCTIM                            ser1_getchar
+     0000FEAC  _T3T4PIN                           ser1_getchar
+     0000FEAD  _ADCEXCFG                          ser1_getchar
+     0000FEAE  _CMPEXCFG                          ser1_getchar
+     0000FEB0  _PWM1_ETRPS                        ser1_getchar
+     0000FEB0  _PWMA_ETRPS                        ser1_getchar
+     0000FEB1  _PWM1_ENO                          ser1_getchar
+     0000FEB1  _PWMA_ENO                          ser1_getchar
+     0000FEB2  _PWM1_PS                           ser1_getchar
+     0000FEB2  _PWMA_PS                           ser1_getchar
+     0000FEB3  _PWM1_IOAUX                        ser1_getchar
+     0000FEB3  _PWMA_IOAUX                        ser1_getchar
+     0000FEB4  _PWM2_ETRPS                        ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FEB4  _PWMB_ETRPS                        ser1_getchar
+     0000FEB5  _PWM2_ENO                          ser1_getchar
+     0000FEB5  _PWMB_ENO                          ser1_getchar
+     0000FEB6  _PWM2_PS                           ser1_getchar
+     0000FEB6  _PWMB_PS                           ser1_getchar
+     0000FEB7  _PWM2_IOAUX                        ser1_getchar
+     0000FEB7  _PWMB_IOAUX                        ser1_getchar
+     0000FEC0  _PWM1_CR1                          ser1_getchar
+     0000FEC0  _PWMA_CR1                          ser1_getchar
+     0000FEC1  _PWM1_CR2                          ser1_getchar
+     0000FEC1  _PWMA_CR2                          ser1_getchar
+     0000FEC2  _PWM1_SMCR                         ser1_getchar
+     0000FEC2  _PWMA_SMCR                         ser1_getchar
+     0000FEC3  _PWM1_ETR                          ser1_getchar
+     0000FEC3  _PWMA_ETR                          ser1_getchar
+     0000FEC4  _PWM1_IER                          ser1_getchar
+     0000FEC4  _PWMA_IER                          ser1_getchar
+     0000FEC5  _PWM1_SR1                          ser1_getchar
+     0000FEC5  _PWMA_SR1                          ser1_getchar
+     0000FEC6  _PWM1_SR2                          ser1_getchar
+     0000FEC6  _PWMA_SR2                          ser1_getchar
+     0000FEC7  _PWM1_EGR                          ser1_getchar
+     0000FEC7  _PWMA_EGR                          ser1_getchar
+     0000FEC8  _PWM1_CCMR1                        ser1_getchar
+     0000FEC8  _PWMA_CCMR1                        ser1_getchar
+     0000FEC9  _PWM1_CCMR2                        ser1_getchar
+     0000FEC9  _PWMA_CCMR2                        ser1_getchar
+     0000FECA  _PWM1_CCMR3                        ser1_getchar
+     0000FECA  _PWMA_CCMR3                        ser1_getchar
+     0000FECB  _PWM1_CCMR4                        ser1_getchar
+     0000FECB  _PWMA_CCMR4                        ser1_getchar
+     0000FECC  _PWM1_CCER1                        ser1_getchar
+     0000FECC  _PWMA_CCER1                        ser1_getchar
+     0000FECD  _PWM1_CCER2                        ser1_getchar
+     0000FECD  _PWMA_CCER2                        ser1_getchar
+     0000FECE  _PWM1_CNTR                         ser1_getchar
+     0000FECE  _PWM1_CNTRH                        ser1_getchar
+     0000FECE  _PWMA_CNTR                         ser1_getchar
+     0000FECE  _PWMA_CNTRH                        ser1_getchar
+     0000FECF  _PWM1_CNTRL                        ser1_getchar
+     0000FECF  _PWMA_CNTRL                        ser1_getchar
+     0000FED0  _PWM1_PSCR                         ser1_getchar
+     0000FED0  _PWM1_PSCRH                        ser1_getchar
+     0000FED0  _PWMA_PSCR                         ser1_getchar
+     0000FED0  _PWMA_PSCRH                        ser1_getchar
+     0000FED1  _PWM1_PSCRL                        ser1_getchar
+     0000FED1  _PWMA_PSCRL                        ser1_getchar
+     0000FED2  _PWM1_ARR                          ser1_getchar
+     0000FED2  _PWM1_ARRH                         ser1_getchar
+     0000FED2  _PWMA_ARR                          ser1_getchar
+     0000FED2  _PWMA_ARRH                         ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FED3  _PWM1_ARRL                         ser1_getchar
+     0000FED3  _PWMA_ARRL                         ser1_getchar
+     0000FED4  _PWM1_RCR                          ser1_getchar
+     0000FED4  _PWMA_RCR                          ser1_getchar
+     0000FED5  _PWM1_CCR1                         ser1_getchar
+     0000FED5  _PWM1_CCR1H                        ser1_getchar
+     0000FED5  _PWMA_CCR1                         ser1_getchar
+     0000FED5  _PWMA_CCR1H                        ser1_getchar
+     0000FED6  _PWM1_CCR1L                        ser1_getchar
+     0000FED6  _PWMA_CCR1L                        ser1_getchar
+     0000FED7  _PWM1_CCR2                         ser1_getchar
+     0000FED7  _PWM1_CCR2H                        ser1_getchar
+     0000FED7  _PWMA_CCR2                         ser1_getchar
+     0000FED7  _PWMA_CCR2H                        ser1_getchar
+     0000FED8  _PWM1_CCR2L                        ser1_getchar
+     0000FED8  _PWMA_CCR2L                        ser1_getchar
+     0000FED9  _PWM1_CCR3                         ser1_getchar
+     0000FED9  _PWM1_CCR3H                        ser1_getchar
+     0000FED9  _PWMA_CCR3                         ser1_getchar
+     0000FED9  _PWMA_CCR3H                        ser1_getchar
+     0000FEDA  _PWM1_CCR3L                        ser1_getchar
+     0000FEDA  _PWMA_CCR3L                        ser1_getchar
+     0000FEDB  _PWM1_CCR4                         ser1_getchar
+     0000FEDB  _PWM1_CCR4H                        ser1_getchar
+     0000FEDB  _PWMA_CCR4                         ser1_getchar
+     0000FEDB  _PWMA_CCR4H                        ser1_getchar
+     0000FEDC  _PWM1_CCR4L                        ser1_getchar
+     0000FEDC  _PWMA_CCR4L                        ser1_getchar
+     0000FEDD  _PWM1_BKR                          ser1_getchar
+     0000FEDD  _PWMA_BKR                          ser1_getchar
+     0000FEDE  _PWM1_DTR                          ser1_getchar
+     0000FEDE  _PWMA_DTR                          ser1_getchar
+     0000FEDF  _PWM1_OISR                         ser1_getchar
+     0000FEDF  _PWMA_OISR                         ser1_getchar
+     0000FEE0  _PWM2_CR1                          ser1_getchar
+     0000FEE0  _PWMB_CR1                          ser1_getchar
+     0000FEE1  _PWM2_CR2                          ser1_getchar
+     0000FEE1  _PWMB_CR2                          ser1_getchar
+     0000FEE2  _PWM2_SMCR                         ser1_getchar
+     0000FEE2  _PWMB_SMCR                         ser1_getchar
+     0000FEE3  _PWM2_ETR                          ser1_getchar
+     0000FEE3  _PWMB_ETR                          ser1_getchar
+     0000FEE4  _PWM2_IER                          ser1_getchar
+     0000FEE4  _PWMB_IER                          ser1_getchar
+     0000FEE5  _PWM2_SR1                          ser1_getchar
+     0000FEE5  _PWMB_SR1                          ser1_getchar
+     0000FEE6  _PWM2_SR2                          ser1_getchar
+     0000FEE6  _PWMB_SR2                          ser1_getchar
+     0000FEE7  _PWM2_EGR                          ser1_getchar
+     0000FEE7  _PWMB_EGR                          ser1_getchar
+     0000FEE8  _PWM2_CCMR1                        ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FEE8  _PWMB_CCMR1                        ser1_getchar
+     0000FEE9  _PWM2_CCMR2                        ser1_getchar
+     0000FEE9  _PWMB_CCMR2                        ser1_getchar
+     0000FEEA  _PWM2_CCMR3                        ser1_getchar
+     0000FEEA  _PWMB_CCMR3                        ser1_getchar
+     0000FEEB  _PWM2_CCMR4                        ser1_getchar
+     0000FEEB  _PWMB_CCMR4                        ser1_getchar
+     0000FEEC  _PWM2_CCER1                        ser1_getchar
+     0000FEEC  _PWMB_CCER1                        ser1_getchar
+     0000FEED  _PWM2_CCER2                        ser1_getchar
+     0000FEED  _PWMB_CCER2                        ser1_getchar
+     0000FEEE  _PWM2_CNTR                         ser1_getchar
+     0000FEEE  _PWM2_CNTRH                        ser1_getchar
+     0000FEEE  _PWMB_CNTR                         ser1_getchar
+     0000FEEE  _PWMB_CNTRH                        ser1_getchar
+     0000FEEF  _PWM2_CNTRL                        ser1_getchar
+     0000FEEF  _PWMB_CNTRL                        ser1_getchar
+     0000FEF0  _PWM2_PSCR                         ser1_getchar
+     0000FEF0  _PWM2_PSCRH                        ser1_getchar
+     0000FEF0  _PWMB_PSCR                         ser1_getchar
+     0000FEF0  _PWMB_PSCRH                        ser1_getchar
+     0000FEF1  _PWM2_PSCRL                        ser1_getchar
+     0000FEF1  _PWMB_PSCRL                        ser1_getchar
+     0000FEF2  _PWM2_ARR                          ser1_getchar
+     0000FEF2  _PWM2_ARRH                         ser1_getchar
+     0000FEF2  _PWMB_ARR                          ser1_getchar
+     0000FEF2  _PWMB_ARRH                         ser1_getchar
+     0000FEF3  _PWM2_ARRL                         ser1_getchar
+     0000FEF3  _PWMB_ARRL                         ser1_getchar
+     0000FEF4  _PWM2_RCR                          ser1_getchar
+     0000FEF4  _PWMB_RCR                          ser1_getchar
+     0000FEF5  _PWM2_CCR1                         ser1_getchar
+     0000FEF5  _PWM2_CCR1H                        ser1_getchar
+     0000FEF5  _PWMB_CCR5                         ser1_getchar
+     0000FEF5  _PWMB_CCR5H                        ser1_getchar
+     0000FEF6  _PWM2_CCR1L                        ser1_getchar
+     0000FEF6  _PWMB_CCR5L                        ser1_getchar
+     0000FEF7  _PWM2_CCR2                         ser1_getchar
+     0000FEF7  _PWM2_CCR2H                        ser1_getchar
+     0000FEF7  _PWMB_CCR6                         ser1_getchar
+     0000FEF7  _PWMB_CCR6H                        ser1_getchar
+     0000FEF8  _PWM2_CCR2L                        ser1_getchar
+     0000FEF8  _PWMB_CCR6L                        ser1_getchar
+     0000FEF9  _PWM2_CCR3                         ser1_getchar
+     0000FEF9  _PWM2_CCR3H                        ser1_getchar
+     0000FEF9  _PWMB_CCR7                         ser1_getchar
+     0000FEF9  _PWMB_CCR7H                        ser1_getchar
+     0000FEFA  _PWM2_CCR3L                        ser1_getchar
+     0000FEFA  _PWMB_CCR7L                        ser1_getchar
+     0000FEFB  _PWM2_CCR4                         ser1_getchar
+     0000FEFB  _PWM2_CCR4H                        ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FEFB  _PWMB_CCR8                         ser1_getchar
+     0000FEFB  _PWMB_CCR8H                        ser1_getchar
+     0000FEFC  _PWM2_CCR4L                        ser1_getchar
+     0000FEFC  _PWMB_CCR8L                        ser1_getchar
+     0000FEFD  _PWM2_BKR                          ser1_getchar
+     0000FEFD  _PWMB_BKR                          ser1_getchar
+     0000FEFE  _PWM2_DTR                          ser1_getchar
+     0000FEFE  _PWMB_DTR                          ser1_getchar
+     0000FEFF  _PWM2_OISR                         ser1_getchar
+     0000FEFF  _PWMB_OISR                         ser1_getchar
+ASxxxx Linker V03.00/V05.40 + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_3                          00000018    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BIT_BANK                            00000021    00000001 =           1. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    0000007D =         125. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  _volt_vdd_mv                       main
+     0000000A  _volt_high                         main
+     00000014  _bp                                _bp
+     00000022  _flash_data                        flash
+     00000050  _flash_power_pre                   flash
+     00000051  _flash_power_formal                flash
+     00000052  _flash_power_pre_act               flash
+     00000053  _flash_power_formal_act            flash
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000056    000000AA =         170. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000056  __start__stack                     main
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    000000AC =         172. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000068  sdcc_atomic_exchange_rollback_st   main
+C:   0000008F  sdcc_atomic_exchange_gptr_impl     main
+C:   0000008F  sdcc_atomic_exchange_rollback_en   main
+C:   0000009F  sdcc_atomic_compare_exchange_gpt   main
+C:   000000A9  __sdcc_program_startup             main
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             000000AC    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000AC  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             000000AF    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             000000B9    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B9  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             000000DB    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000DB  __mcs51_genRAMCLEAR                
+C:   000000E1  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00000105    000000AD =         173. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000001B2    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000001B5    00000F75 =        3957. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000321  _tmr2_isr                          main
+C:   00000332  _main_tick_get                     main
+C:   00000350  _main                              main
+C:   000008B5  _flash_f3clk_isr                   flash
+C:   00000AD1  _flash_f1sync_isr                  flash
+C:   00000BE6  _flash_timer_isr                   flash
+C:   00000C1D  _flash_setup                       flash
+C:   00000C7D  _sys_boot                          sys_boot
+C:   00000C82  _printf_tiny                       printf_tiny
+C:   00000D8B  _putchar                           ser1_putchar
+C:   00000D8B  _ser1_putchar                      ser1_putchar
+C:   00000D94  _sys_boot_ISP                      sys_boot_ISP
+C:   00000D99  _adc_get                           adc_get
+C:   00000DB3  __divulong                         _divulong
+C:   00000DB9  __divlong                          _divulong
+C:   00000E20  _sys_delay_ms                      sys_delay_ms
+C:   00000E39  _tolower                           tolower
+C:   00000E5F  _pio_disable_all                   pio_disable_all
+C:   00000F58  _sys_delay_us                      sys_delay_us
+C:   00000F75  __gptrget                          _gptrget
+C:   00000F91  _pio_config                        pio_config
+C:   000010A8  __mullong                          _mullong
+C:   000010A8  __mullong_dummy                    _mullong
+C:   00001118  _getchar                           ser1_getchar
+C:   00001118  _ser1_getchar                      ser1_getchar
+C:   00001126  ___sdcc_external_startup           _startup
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               0000112A    000001A3 =         419. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000112A  _flash_time_of_level               main
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 38.
+
+Files Linked                              [ module(s) ]
+
+main.rel                                  [  ]
+
+
+Libraries Linked                          [ object file ]
+
+my.lib                                    [ flash.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/mcs51.lib
+                                          [ crtxinit.rel ]
+my.lib                                    [ sys_boot.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/libsdcc.lib
+                                          [ printf_tiny.rel ]
+my.lib                                    [ ser1_putchar.rel ]
+my.lib                                    [ sys_boot_ISP.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/mcs51.lib
+                                          [ crtxclear.rel ]
+my.lib                                    [ adc_get.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/liblong.lib
+                                          [ _divulong.rel ]
+my.lib                                    [ sys_delay_ms.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/libsdcc.lib
+                                          [ tolower.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/libsdcc.lib
+                                          [ _bp.rel ]
+my.lib                                    [ pio_disable_all.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/mcs51.lib
+                                          [ crtpagesfr.rel ]
+my.lib                                    [ sys_delay_us.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/libsdcc.lib
+                                          [ _gptrget.rel ]
+my.lib                                    [ pio_config.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/liblong.lib
+                                          [ _mullong.rel ]
+my.lib                                    [ ser1_getchar.rel ]
+C:\Program Files\SDCC\bin\..\lib\small-stack-auto/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 39.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+
